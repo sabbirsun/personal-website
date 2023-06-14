@@ -1,14 +1,12 @@
 body{
+
     font-family: 'Poppins', sans-serif;
-}
-.b-p{
-    background-image: url("images/header-bg.png");
 }
 h1{ 
     color: brown;  
 }
 p{
-    color: dar;
+    color: darkgreen;
 }
 .half-width{
     width: 40%;
@@ -28,3 +26,59 @@ p{
     font-weight: bold;
     background-image: linear-gradient(60deg, lightgreen, lightblue);
 }
+.top-banner{
+    background-image: url("images/header-bg.png");  
+}
+section{
+    height: 700px;
+}
+
+.bottom-banner{
+        background-image: url("images/biography-bg.png");
+}
+.latest-banner{
+    background-image: url("images/latest-work-bg.png");
+}
+.latest-banner h2{
+    text-align: center;
+    font-weight: bold;
+}
+.images-size{
+    height: 100%;
+    width: 30%;
+}
+.footer-banner{
+    background-image: url("images/footer-bg.png");
+}
+.footer-banner h2{
+    text-align: center;
+}
+.align{
+    text-align: center;
+}
+.lorem{
+    color: lightseagreen;
+    text-align: center;
+}
+.box{
+    text-decoration: none;
+    background-color: gray;
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    height: 20%;
+    width: 50%;
+    margin: 0 auto;
+    background-image: linear-gradient(60deg, lightgreen, lightblue);
+}
+.box h2{
+    text-align: center;
+}
+.box h1{
+    text-align: center;
+}
+.footer h4{
+    text-align: center;
+}
+
