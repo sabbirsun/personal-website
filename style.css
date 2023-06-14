@@ -1,7 +1,30 @@
 body{
-    background-image: url("images/header-bg.png");
     font-family: 'Poppins', sans-serif;
+}
+.b-p{
+    background-image: url("images/header-bg.png");
 }
 h1{ 
     color: brown;  
+}
+p{
+    color: dar;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: gray;
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(60deg, lightgreen, lightblue);
 }
